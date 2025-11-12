@@ -48,7 +48,7 @@ width: fit-content;
     position: absolute;
     top: 0;
     right: 0;
-    width: 128px;
+    max-width: 128px;
     height: 128px;
 }
 .container{
@@ -102,6 +102,21 @@ a:hover{
 }
 a:active{
     color: #00ffffb4;
+}
+.video{
+    position: relative;
+    max-width: 830px;
+    height: 340px;
+    overflow: hidden;
+    background: #abffaf; 
+}
+.video > iframe{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 600px;
+    height: 300px;   
+    border: 0;
 }
 footer{
     margin: auto;

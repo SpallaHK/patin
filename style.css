@@ -108,7 +108,7 @@ a:active{
     max-width: 770px;
     height: 310px;
     overflow: hidden;
-    background: #abffaf;
+    background-color: var(--cor0);
     margin: 10px auto 20px auto;
 }
 .video > iframe{

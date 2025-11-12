@@ -76,7 +76,8 @@ main{
     border-radius: 10px;
     box-shadow: 2px 4px 7px 1px;
     max-width: 830px;
-    margin: auto;
+    margin: 0 auto 10px auto;
+    padding-bottom: 20px;
 }
 main h1{
     font-size: 1.7em;
@@ -105,7 +106,7 @@ a:active{
 }
 .video{
     position: relative;
-    max-width: 770px;
+    max-width: 515px;
     height: 310px;
     overflow: hidden;
     background-color: var(--cor0);

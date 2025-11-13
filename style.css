@@ -106,7 +106,7 @@ a:active{
 }
 .video{
     position: relative;
-    max-width: 515px;
+    max-width: 534px;
     height: 310px;
     overflow: hidden;
     background-color: var(--cor0);
